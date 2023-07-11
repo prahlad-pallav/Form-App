@@ -306,21 +306,21 @@ function App() {
       <input type="checkbox"  name='comments' id='comments' checked={formData.comments} onClick={changeHandler}/>
       <label className='text-start mt-2 mb-2 font-medium' htmlFor="comments">Comments</label>
       </div>
-      <p className='text-gray-400 text-sm text-start indent-7 -mt-2'>Get notified when someones posts a comment on a posting.</p>
+      <p className='text-gray-400 text-xs text-start -mt-2'>Get notified when someones posts a comment on a posting.</p>
       </div>
       <div>
       <div className='flex gap-3'>
       <input type="checkbox"  name='candidates' id='candidates' checked={formData.candidates} onClick={changeHandler}/>
       <label className='text-start mt-2 mb-2 font-medium' htmlFor="candidates">Candidates</label>
       </div>
-      <p className='text-gray-400 text-sm text-start indent-7 -mt-2'>Get notified when a candidate applies for a job.</p>
+      <p className='text-gray-400 text-xs text-start -mt-2'>Get notified when a candidate applies for a job.</p>
       </div>
       <div>
       <div className='flex gap-3'>
       <input type="checkbox"  name='offers' id='offers' checked={formData.offers} onClick={changeHandler}/>
       <label className='text-start mt-2 mb-2 font-medium' htmlFor="offers">Offers</label>
       </div>
-      <p className='text-gray-400 text-sm text-start indent-7 -mt-2'>Get notified when candidate accepts or rejects an offer.</p>
+      <p className='text-gray-400 text-xs text-start -mt-2'>Get notified when candidate accepts or rejects an offer.</p>
       </div>
       <label className='text-start mt-2 mb-2 font-medium'>Push Notifications</label> 
       <p className='text-gray-400 text-sm text-start -mt-2'>These are delievered via SMS to your mobile number.</p>
